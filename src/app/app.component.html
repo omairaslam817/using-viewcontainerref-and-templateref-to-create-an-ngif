@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<p *ngIf="value">
+  Start editing to see some magic happen 
+</p>
+<ng-template [ngIf]="value">
+Start editing to see some magic happen
+</ng-template>
+<br>
+<ng-template [myNgIf]>
+  custom ngIf using directive
+</ng-template>
